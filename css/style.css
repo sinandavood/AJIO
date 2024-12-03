@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: -1px 0px 7px;
+}
+div.left img{
+    width: 130px;
+    padding: 20px;
+}
+div.right{
+}
+div.right ul{
+    display: flex;
+    justify-content: space-between; 
+    position: relative;
+    top: 50px;
+}
+div.right ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+div.right ul li a{
+    text-decoration: none;
+    color: #000;
+}
+div.search ul{
+    display: flex;
+    justify-content: space-between;
+}
+.search ul li{
+    list-style-type: none;
+}
+.search li a.last{
+    background-color: #000;
+    color: #fff;
+}
+div.search ul li a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+div.search li a:hover{
+    text-decoration: underline;
+}
+.search a img{
+    margin-left: 15px;
+}
+.search form{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding: 5px;
+}
+.group{
+    padding: 5px 10px;
+    border: 1px solid #000;
+    text-align: center;
+    border-radius: 15px;
+    background:lightyellow;
+}
+.group input{
+    border: none;
+    outline: none;
+    background: lightyellow;
+}
+.group img{
+    width: 15px;
+}
+
+
+main{
+    margin-top: 10px;
+}
+main a img:hover{
+    transform: scale(1.05);
+    transition: 1.2s;
+}
+div.content{
+    padding-bottom: 20px;
+}
+.offer a img{
+    width: 100%;
+
+}
+
+.categories{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    overflow-x: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+.categories a img{
+    width: 380px;
+}
+.desiwear{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    overflow-x: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+.desiwear a img{
+    width: 380px;
+
+}
+.shoes{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.shoes a img{
+    width: 380px;
+}
+a img{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.footer ul{
+    list-style: none;
+    text-align: center;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.footer ul li a img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+footer{
+    background:#213545;
+    padding: 20px;
+}
+footer small{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 120px;
+}
+footer hr{
+    width: 85%;
+    margin-left: 120px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.bottom ul{
+    list-style: none;
+}
+.bottom ul li{
+    padding-bottom: 10px;
+}
+.bottom ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.bottom ul li a span{
+    font-size: 16px;
+}
