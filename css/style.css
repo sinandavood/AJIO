@@ -53,6 +53,7 @@ div.search li a:hover{
 }
 .search a img{
     margin-left: 15px;
+    width: 40px;
 }
 .search form{
     display: flex;
